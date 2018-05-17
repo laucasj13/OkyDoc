@@ -1,0 +1,30 @@
+<ion-content style="height:100%;" class="bg-image">
+  <ion-grid>
+    <ion-card center class="card">
+        <div class="img-div">
+            <img src='http://subirimagen.me/uploads/20180515153505.png' />
+          </div>
+      <ion-card-content style="font-size:20px">
+        <div class="form">
+        <ion-list>
+          <ion-label center>Usuario</ion-label>
+          <ion-item>
+            <ion-input class="txt" type="text" placeholder="Número de cédula">
+            </ion-input>
+          </ion-item>
+          <ion-label center>Contraseña</ion-label>
+          <ion-item>
+            <ion-input class="txt" type="password" placeholder="Ingrese su contraseña">
+            </ion-input>
+          </ion-item>
+        </ion-list>
+      </div>
+        <div class="btn1">          
+          <button ion-button style="border-radius:10px" (click)="onClick()">Iniciar sesión</button>
+          <br>
+          <button ion-button style="border-radius:10px" (click)="onClick1()">Registrar</button>
+        </div>
+      </ion-card-content>
+    </ion-card>
+  </ion-grid>
+</ion-content>

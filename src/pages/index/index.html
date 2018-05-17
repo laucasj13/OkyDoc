@@ -1,0 +1,72 @@
+<ion-content padding style="background-color: #0064F0">
+    <div class="img-div">
+        <img src='http://subirimagen.me/uploads/20180515153505.png' class="center" />
+    </div>
+
+    <ion-grid>
+        <ion-row>
+            <ion-col>
+                <button ion-button color="light" clear>Paciente</button>
+                <button ion-button color="light" clear>Profesional</button>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+    <ion-grid class="tabla">
+        <ion-row>
+            <ion-col col-4>
+                <img src='http://subirimagen.me/uploads/20180516120416.png' />
+                <button ion-button color="light" clear (click)="onComunidad()">Comunidad</button>
+            </ion-col>
+            <ion-col col-4>
+                <img src='http://subirimagen.me/uploads/20180516122643.png' />
+                <button ion-button color="light" clear (click)="onProfesional()">Profesionales</button>
+            </ion-col>
+            <ion-col col-4>
+                <img src='http://subirimagen.me/uploads/20180516122707.png' />
+                <button ion-button color="light" clear (click)="onAgenda()">Agenda</button>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4>
+                <br>
+                <img src='http://subirimagen.me/uploads/20180516123035.png' />
+                <button ion-button color="light" clear (click)="onMapa()">Mapa</button>
+            </ion-col>
+            <ion-col col-4>
+                <img src='http://subirimagen.me/uploads/20180516123121.png' />
+            </ion-col>
+            <ion-col col-4>
+                <br>
+                <img src='http://subirimagen.me/uploads/20180516123143.png' />
+                <button ion-button color="light" clear (click)="onReceta()">Recetas</button>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-4>
+                <img src='http://subirimagen.me/uploads/20180516123316.png' />
+                <button ion-button color="light" clear (click)="onClinica()">Clinicas y
+                    <br> hospitales</button>
+            </ion-col>
+            <ion-col col-4>
+                <img src='http://subirimagen.me/uploads/20180516123347.png' />
+                <button ion-button color="light" clear (click)="onConsulta()">Consulta
+                    <br> automática</button>
+            </ion-col>
+            <ion-col col-4>
+                <img src='http://subirimagen.me/uploads/20180516123402.png' />
+                <button ion-button color="light" clear (click)="onFarmacias()">Farmacias</button>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col>
+                <ion-fab class="squareBottomRight" bottom top right>
+                    <img style="margin: 1px;" src='http://subirimagen.me/uploads/20180516154249.png' />
+                </ion-fab>
+                <ion-fab class="squareBottomRight" bottom  top left>
+                    <img style="margin: 1px;" src='http://subirimagen.me/uploads/20180516154415.png' />
+                </ion-fab>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

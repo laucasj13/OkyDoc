@@ -1,0 +1,74 @@
+<ion-content padding>
+    <div class="img-div">
+        <img src='http://subirimagen.me/uploads/20180516093750.png' class="center" />
+    </div>
+    <ion-grid>
+        <ion-list>
+            <ion-label style="text-align:left">Formulario de registro</ion-label>
+            <ion-item>
+                <ion-label>Nombre completo</ion-label>
+                <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label>N° de cédula</ion-label>
+                <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label>Ciudad</ion-label>
+                <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label>Fecha de nacimiento</ion-label>
+                <ion-datetime displayFormat="MM/DD/YYYY"></ion-datetime>
+            </ion-item>
+            <ion-item>
+                <ion-label>Contraseña</ion-label>
+                <ion-input type="password"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label>Confirmar contraseña</ion-label>
+                <ion-input type="password"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label>Correo electrónico</ion-label>
+                <ion-input type="email"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label>Correo electrónico</ion-label>
+                <ion-input type="email"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label>N° de teléfono</ion-label>
+                <ion-input type="text"></ion-input>
+            </ion-item>
+            <ion-row radio-group class="sexo">
+                <ion-col>
+                    <ion-item>
+                        <ion-label color="primary">Género</ion-label>
+                    </ion-item>
+                </ion-col>
+                <ion-col>
+                    <ion-item>
+                        <ion-label>Hombre</ion-label>
+                        <ion-radio value="Hombre"></ion-radio>
+                    </ion-item>
+                </ion-col>
+                <ion-col>
+                    <ion-item>
+                        <ion-label>Mujer</ion-label>
+                        <ion-radio value="Mujer"></ion-radio>
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+            <ion-item>
+                <ion-radio value="accept" style="text-align:left"></ion-radio>
+                <br>
+                <ion-label>He leído y acepto los términos y condiciones</ion-label>
+            </ion-item>
+        </ion-list>
+        <div>
+            <button ion-button style="border-radius:10px" (click)="onClick()">Cancelar</button>
+            <button ion-button style="border-radius:10px" (click)="onClick1()">Registrar</button>
+        </div>
+    </ion-grid>
+</ion-content>
